@@ -7,12 +7,12 @@ const Navbar = () => (
       <div className="navbar-brand">GitHub Поиск</div>
       <ul className="navbar-nav">
         <li className="nav-item">
-          <NavLink className="nav-link" to="/">
+          <NavLink className="nav-link" to="/github-api-react">
             Главная
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/about">
+          <NavLink className="nav-link" to="/github-api-react/about">
             Информация
           </NavLink>
         </li>

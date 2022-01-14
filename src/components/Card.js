@@ -1,13 +1,13 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Card = ({user}) => {
+const Card = ({ user }) => {
     return (
         <div className='card mt-4'>
-            <img src={user.avatar_url} alt={user.login} className='card-img-top'/>
+            <img src={user.avatar_url} alt={user.login} className='card-img-top' />
             <div className='card-body'>
                 <h5 className='card-title'>{user.login}</h5>
-                <Link to={'/profile/' + user.login} className='btn btn-primary'>Открыть</Link>
+                <Link to={'/github-api-react/profile/' + user.login} className='btn btn-primary'>Открыть</Link>
             </div>
         </div>
     );
